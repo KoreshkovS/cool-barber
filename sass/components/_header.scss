@@ -1,3 +1,124 @@
 .header {
   background-color: #3b322d;
+  padding: 35px 0;
+  position: relative;
+  @media screen and (max-width: 767.98px) {
+    padding: 25px 0;
+  }
+  @media screen and (max-width: 479.98px) {
+    padding: 15px 0;
+  }
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-button {
+  display: none;
+
+  @media screen and (max-width: 767.98px) {
+    display: block;
+  }
+}
+.mobile-menu-icon {
+}
+.icon-cross {
+  fill: $whiteColor;
+  display: none;
+  .menu-button.is-open & {
+    display: block;
+  }
+}
+.icon-menu {
+  fill: $whiteColor;
+
+  .menu-button.is-open & {
+    display: none;
+  }
+}
+.header__logo {
+}
+
+.menu-container {
+  @media screen and (max-width: 767.98px) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #3b322d;
+    padding: 15px 0;
+    &.is-open {
+      display: block;
+    }
+  }
+}
+.navigation {
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  @media screen and (max-width: 1099.98px) {
+    gap: 15px;
+  }
+  @media screen and (max-width: 767.98px) {
+    flex-direction: column;
+  }
+}
+.navigation__item {
+  @media screen and (max-width: 767.98px) {
+    width: 100%;
+  }
+}
+.navigation__link {
+  padding: 15px 0;
+
+  transition: color 250ms ease;
+
+  &:hover,
+  &:focus {
+    color: $hoverColor;
+  }
+  @media screen and (max-width: 767.98px) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #67574f;
+    padding: 10px 0;
+  }
+}
+
+.connection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  @media screen and (max-width: 479.98px) {
+    gap: 15px;
+  }
+}
+.connection__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: color 250ms ease;
+
+  &:hover,
+  &:focus {
+    color: $hoverColor;
+  }
+}
+.connection__text {
+  margin-right: 15px;
+
+  @media screen and (max-width: 1023.98px) {
+    display: none;
+  }
+}
+.connection__icon {
 }
