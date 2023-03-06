@@ -64,6 +64,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #ffffff;
+  background-color: #3b322d;
 }
 
 [class*=__container] {
@@ -142,7 +143,6 @@ h2 {
 }
 
 .header {
-  background-color: #3b322d;
   padding: 35px 0;
   position: relative;
 }
@@ -197,6 +197,7 @@ h2 {
   .menu-container {
     display: none;
     position: absolute;
+    z-index: 5;
     top: 100%;
     left: 0;
     width: 100%;
@@ -307,7 +308,6 @@ h2 {
 }
 
 .hero {
-  background-color: #3b322d;
   margin-bottom: -250px;
 }
 

@@ -1,5 +1,4 @@
 .header {
-  background-color: #3b322d;
   padding: 35px 0;
   position: relative;
   @media screen and (max-width: 767.98px) {
@@ -44,6 +43,7 @@
   @media screen and (max-width: 767.98px) {
     display: none;
     position: absolute;
+    z-index: 5;
     top: 100%;
     left: 0;
     width: 100%;
