@@ -69,7 +69,6 @@
             <img
               src="./images/icons/map.svg"
               alt="map icon"
-              
               class="connection__icon"
             />
           </a>
@@ -81,7 +80,6 @@
             <img
               src="./images/icons/phone.svg"
               alt="phone icon"
-             
               class="connection__icon"
             />
           </a>
@@ -483,7 +481,12 @@
                 placeholder="+1 (___) ___-__-__"
                 class="form__input"
               />
-              <input type="email" name="e-mail" placeholder="Email" class="form__input" />
+              <input
+                type="email"
+                name="e-mail"
+                placeholder="Email"
+                class="form__input"
+              />
               <button class="form__button button black__button">
                 Book now
               </button>
@@ -506,34 +509,55 @@
     </main>
 
     <footer class="footer">
-    <div class="footer__top">
-      <div class="footer__container">
-        <div class="footer__content">
-          <h2 class="footer__title">Contacts</h2>
-          <address class="footer__address address">
-            <div class="address__item">
-              <img src="./images/icons/phone.svg" alt="phone" class="address__icon">
-              <a href="tel:8 (800) 000-00-00" class="address__link">8 (800) 000-00-00</a>
-            </div>
-            <div class="address__item">
-              <img src="./images/icons/email.svg" alt="email" class="address__icon">
-              <a href="mailto:info@sitename.com" class="address__link">info@sitename.com</a>
-            </div>
-            <div class="address__item">
-              <img src="./images/icons/map.svg" alt="map" class="address__icon">
-              <a href="" class="address__link">302 W 50th St, NY, NY 10019</a>
-            </div>
-             <div class="address__item">
-              <img src="./images/icons/time.svg" alt="time" class="address__icon">
-              <p class="address__link">Daily from 9 to 20</p>
-            </div>
-          </address>
+      <div class="footer__top">
+        <div class="footer__container">
+          <div class="footer__content">
+            <h2 class="footer__title">Contacts</h2>
+            <address class="footer__address address">
+              <div class="address__item">
+                <a href="tel:8 (800) 000-00-00" class="address__link">
+                  <img
+                    src="./images/icons/phone.svg"
+                    alt="phone"
+                    class="address__icon"
+                  />8 (800) 000-00-00</a
+                >
+              </div>
+              <div class="address__item">
+                <a href="mailto:info@sitename.com" class="address__link">
+                  <img
+                    src="./images/icons/email.svg"
+                    alt="email"
+                    class="address__icon"
+                  />
+                  info@sitename.com</a
+                >
+              </div>
+              <div class="address__item">
+                <a href="" class="address__link"
+                  ><img
+                    src="./images/icons/map.svg"
+                    alt="map"
+                    class="address__icon"
+                  />302 W 50th St, NY, NY 10019</a
+                >
+              </div>
+              <div class="address__item">
+                <p class="address__link">
+                  <img
+                    src="./images/icons/time.svg"
+                    alt="time"
+                    class="address__icon"
+                  />Daily from 9 to 20
+                </p>
+              </div>
+            </address>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer__bottom">
-      <p class="footer__copy">&copy; All rights reserved</p>
-    </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; All rights reserved</p>
+      </div>
     </footer>
 
     <script src="./js/mobile-menu.js"></script>
