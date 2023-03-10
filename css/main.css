@@ -331,8 +331,8 @@ h2 {
   position: relative;
   z-index: 3;
   padding: 40px 40px 60px 60px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(33, 24, 20, 0.57)), to(rgba(38, 28, 24, 0.42))), url(../../images/hero/hero-bg.jpg);
-  background-image: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../../images/hero/hero-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(33, 24, 20, 0.57)), to(rgba(38, 28, 24, 0.42))), url(../././images/hero/hero-bg.jpg);
+  background-image: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../././images/hero/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
