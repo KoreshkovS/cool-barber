@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   color: $whiteColor;
 
- background-color: #3b322d;
+  background-color: #3b322d;
 }
 [class*="__container"] {
   max-width: 1210px;
@@ -54,6 +54,7 @@ h2 {
   padding: 10px 25px;
 
   border: 1px solid #efe7e2;
+  transition: background-color 250ms ease;
 }
 .button__light {
   transition: color 250ms ease;
@@ -66,10 +67,19 @@ h2 {
   background-color: #ff6e40;
   border: none;
 
-  transition: background-color 250ms ease;
+
 
   &:hover,
   &:focus {
     background-color: #fb7c55;
+  }
+}
+.black__button {
+  background-color: #000000;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: #424141;
   }
 }
